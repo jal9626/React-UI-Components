@@ -7,6 +7,7 @@
     border: 1px solid #672470;
     width: 99.5%;
     margin-left: .1%;
+    text-decoration: none;
 
 }
 
@@ -15,10 +16,11 @@
     width: 100%;
 }
 
-span {
+.jsLink {
     font-weight: normal;
     color: #7E8890;
     font-size: .8rem;
+    text-decoration: none;
 }
 
 .content {
@@ -29,6 +31,11 @@ span {
 
 .cardContent {
     border: 1px solid #9A929B;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
     
 }
 
