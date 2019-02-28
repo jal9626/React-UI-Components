@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="App">
       <HeaderContainer />
-      <a href='https://reactjs.org/'><CardContainer /></a>
+      <a href='https://reactjs.org/' style={{ textDecoration: 'none' }}><CardContainer /></a>
         
     </div>
 

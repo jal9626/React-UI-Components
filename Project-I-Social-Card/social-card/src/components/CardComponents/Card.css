@@ -7,7 +7,6 @@
     border: 1px solid #672470;
     width: 99.5%;
     margin-left: .1%;
-    text-decoration: none;
 
 }
 
@@ -20,7 +19,7 @@
     font-weight: normal;
     color: #7E8890;
     font-size: .8rem;
-    text-decoration: none;
+    
 }
 
 .content {
