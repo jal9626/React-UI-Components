@@ -10,6 +10,13 @@
     border-right-width: 0px;
     border-top-width: 0px;
     border-left-width: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clearButton p {
+    font-size: 3rem;
 }
 
 .symbolsContainer {
@@ -19,5 +26,5 @@
     border-right-width: 0px;
     border-top-width: 0px;
     border-bottom-width: 0px;
-
+    display: flex;
 }
