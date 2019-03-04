@@ -1,8 +1,4 @@
 
-.actionButtonContainer {
-    display: flex;
-}
-
 .clearButton {
     border: 2px solid grey;
     width: 75%;
@@ -19,12 +15,77 @@
     font-size: 3rem;
 }
 
-.symbolsContainer {
+.actionButtonContainer {
     border: 2px solid grey;
     width: 25%;
-    height: 518px;
     border-right-width: 0px;
     border-top-width: 0px;
     border-bottom-width: 0px;
     display: flex;
+    flex-direction: column;
+    margin-left: 75%;   
+    z-index: 2;
+    position: relative;
+    top: -104px;
+}
+
+.symbol {
+    height: 100px;
+    border: 2px solid grey; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6C0017;
+}
+
+.symbol h1{
+    color: white;
+}
+
+.numberContainer {
+    z-index: 3;
+    position: relative;
+    top: -538px;
+    width: 75%;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+}
+
+.numbers {
+    display: flex;
+    z-index: 3;
+    position: relative;
+}
+
+.numbers p {
+    width: 50%;
+    border: 2px solid grey;
+    height: 75px;
+    z-index: 3;
+    position: relative;
+    border-bottom-width: 0px;
+}
+
+
+
+.zero {
+    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    z-index: 4;
+    position: relative;
+    top: 56px;
+
+}
+
+.zero p {
+    font-size: 3rem;
+    z-index: 4;
+    position: relative;
 }

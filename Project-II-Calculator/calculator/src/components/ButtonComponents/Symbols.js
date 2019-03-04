@@ -3,7 +3,7 @@ import ActionButton from "./ActionButton";
 
 const symbols = [
     {
-        symbol: '&#247'
+        symbol: '/'
         
     },
     {
@@ -23,13 +23,14 @@ console.log(symbols)
 
 function Symbols() {
     return (
+    
         <div>
-          {symbols.map(symbol, index => (
+          {symbols.map((symbol, index) => (
             <ActionButton symbol={symbol} key={index} />
           ))}
-          
-        </div>      
+        </div> 
+    
     );
-  }
+  }    
 
 export default Symbols;

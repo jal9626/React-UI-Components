@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
-import ActionButton from './components/ButtonComponents/ActionButton';
 import Symbols from './components/ButtonComponents/Symbols';
+import NumberButton from './components/ButtonComponents/NumberButton';
 
-const App = () => {
+const App = props => {
   return (
     <div className='appBorder'>
       <CalculatorDisplay />
-      <ActionButton />
       <Symbols />
+      <NumberButton />      
     </div>
   );
 };

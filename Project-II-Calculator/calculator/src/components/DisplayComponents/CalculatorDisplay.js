@@ -3,10 +3,16 @@ import './Display.css';
 
 function CalculatorDisplay() {
     return (
-        <div className='display'>
+       <div>
+         <div className='display'>
            <p>0</p>
-        </div>
+         </div>
+         <div className='clearButton'>
+           <p>clear</p>
+         </div>
+       </div>
     );
 };
 
 export default CalculatorDisplay;
+
