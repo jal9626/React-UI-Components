@@ -3,6 +3,7 @@ import './Button.css';
 
 function NumberButton(props) {
     return (
+   <div>
    <div class='numberContainer'>
       <div className="numbers">   
         <p><strong>7</strong></p> 
@@ -19,10 +20,11 @@ function NumberButton(props) {
         <p><strong>2</strong></p> 
         <p><strong>3</strong></p> 
       </div>   
-      <div className='zero'>
-        <p><strong>0</strong></p>
-      </div>  
     </div>
+    <div className='zero'>
+      <p><strong>0</strong></p>
+    </div>  
+    </div>  
   );
 }
 
